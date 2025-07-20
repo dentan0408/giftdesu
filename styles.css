@@ -18,7 +18,7 @@ body, html {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   padding: 20px;
 }
 
@@ -29,7 +29,6 @@ body, html {
   transition: transform 0.2s ease;
   animation: glow 2s ease-in-out infinite;
   z-index: 1;
-  margin: 0;
 }
 
 .emoji:hover {
@@ -46,10 +45,10 @@ body, html {
 }
 
 .moogle_img{
-  width: 280px;
+  width: auto;
   position: relative;
   left: 20px;
-  height: auto;
+  height: 200px;
   pointer-events: none; 
   margin:0;
   animation: moogleBounce 1.5s ease-in-out infinite;
@@ -66,6 +65,7 @@ body, html {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin-top: 100px;
   left: -50px;
+  font-size: 8px;
 }
 
 .bubble::after {
